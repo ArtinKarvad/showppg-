@@ -1,0 +1,18 @@
+name: ShowPPG
+version: '1.0.0'
+main: com.artin.showppg.ShowPPG
+api-version: '1.21'
+author: Artin
+description: پلاگین مدیریتی ساده برای مدیریت سرور (استاپ، کیک، بن، پاک کردن مپ‌ها، آپ کردن، اطلاعات سرور)
+
+commands:
+  showppg:
+    description: دستور اصلی پلاگین ShowPPG
+    usage: |
+      /showppg stop
+      /showppg kick <نام بازیکن>
+      /showppg ban <نام بازیکن>
+      /showppg did
+      /showppg op <نام بازیکن> <true|false>
+      /showppg info
+      /showppg help
